@@ -4,7 +4,7 @@ This repository provides a script and necessary files for the offline installati
 
 ## Prerequisites
 
-- **Linux distribution** with systemd (e.g., Ubuntu, CentOS).
+- **Linux distribution** with systemd (Debian 12.X).
 - **Root access** or sudo privileges.
 - **Pre-downloaded installation files** (included in this repository).
 - **Internet access is required** for the initial download of files and script but not for installation.
