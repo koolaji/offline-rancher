@@ -1,0 +1,5 @@
+server: https://server-1:9345
+token: 64009639a7f611e0b1e5bc4e2e6d2d13
+tls-san:
+  - server-1
+

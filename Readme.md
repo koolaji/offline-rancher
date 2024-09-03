@@ -1,0 +1,2 @@
+#### This document is for offline installation or Rancher rke2 config. sh, the file has been written to install on the server
+after installation of the first server in the path of /var/lib/rancher/rke2/server/node-token and put the last part in the config.yaml file the run config.sh file 
