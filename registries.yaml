@@ -1,0 +1,30 @@
+mirrors:
+  "docker.io":
+    endpoint:
+      - "https://mirror.registry.platform.ske.sotoon.ir"
+  "gcr.io":
+    endpoint:
+      - "https://mirror.registry.platform.ske.sotoon.ir"
+  "k8s.gcr.io":
+    endpoint:
+      - "https://mirror.registry.platform.ske.sotoon.ir"
+  "ghcr.io":
+    endpoint:
+      - "https://mirror.registry.platform.ske.sotoon.ir"
+  "quay.io":
+    endpoint:
+      - "https://mirror.registry.platform.ske.sotoon.ir"
+  "k8s.io":
+    endpoint:
+      - "https://mirror.registry.platform.ske.sotoon.ir"
+  "registry.k8s.io":
+    endpoint:
+      - "https://mirror.registry.platform.ske.sotoon.ir"
+  "*":
+    endpoint:
+      - "{{ default_mirror_url }}"
+
+configs:
+  "mirror.registry.platform.ske.sotoon.ir":
+    tls:
+      insecure_skip_verify: true
